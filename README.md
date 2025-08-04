@@ -34,14 +34,23 @@ Designed with modularity, scalability, and security in mind, this backend demons
 
 ## Project Structure
 ├── controllers # Request handlers and business logic
+
 ├── db # MongoDB connection setup
+
 ├── middlewares # Authentication and file handling
+
 ├── models # Mongoose schemas
+
 ├── routes # API route definitions
+
 ├── utils # Reusable helper functions
+
 ├── app.js # Express app and middleware setup
+
 ├── index.js # Entry point of the server
+
 ├── constants.js # Application constants
+
 └── .env.example # Environment variable template
 
 > To run this project, clone the repo, install dependencies with `npm install`, create a `.env` file, and start the server using `npm run dev`.
